@@ -9,6 +9,7 @@
   "author": "Jesus Carlos Antonio Rocha Vedia <jesusrochavedia@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "yargs": "^17.3.1"
   }
 }
