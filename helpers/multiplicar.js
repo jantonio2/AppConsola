@@ -1,3 +1,4 @@
+const colors = require('colors');
 const { writeFileSync, rmSync } = require('fs');
 
 const crearArchivo = async( base = 5, listar ) => {
@@ -11,9 +12,9 @@ const crearArchivo = async( base = 5, listar ) => {
     }
     
     if(listar){
-      console.log('===============');
-      console.log('  Tabla del: ', base);
-      console.log('===============');
+      console.log(colors.blue('==============='));
+      console.log(colors.blue('  Tabla del: '), colors.red(base));
+      console.log(colors.blue('==============='));
       console.log(salida);
     }
     // writeFile(`tabla-${num}.txt`, salida, (err) => {
